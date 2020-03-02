@@ -2,8 +2,8 @@
 /**
  * Plugin Name:       Provost Newsroom Connector
  * Plugin URI:        https://provost.ucf.edu
- * Description:       This works with the UCF Athena theme and creates a rss feed for the provost newsroom
- * Version:           0.00.1
+ * Description:       Creates rss feed based on the provost newsroom catagories.
+ * Version:           0.00.2
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Mark Bennett
@@ -12,6 +12,19 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
   */
 
+
+  if ( ! defined( 'ABSPATH' ) ) {
+         exit; // Exit if accessed directly
+     }
+
+
+/*
+Currently this plugin creates these catagories
+mysite.ucf.edu/pnresearch
+mysite.ucf.edu/pnfaculty
+mysite.ucf.edu/pnstudentsuccess
+mysite.ucf.edu/pncommunityengagment
+ */
 
 
 
